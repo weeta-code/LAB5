@@ -14,4 +14,4 @@ def approximate_pi():
     
     pi = math.sqrt(6 * sum)
 
-    print(f'sum = {sum}\napproximate value of pi is: {pi}')
+    return print(f'sum = {sum}\napproximate value of pi is: {pi}')
