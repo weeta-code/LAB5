@@ -6,7 +6,7 @@ import math
 def approximate_pi():
     num = int(input('Enter a positive integer: '))
     sum = 0
-    i = 0
+    i = 1
 
     while i <= num:
         sum += 1 / (i ** 2)
@@ -14,4 +14,7 @@ def approximate_pi():
     
     pi = math.sqrt(6 * sum)
 
-    return print(f'sum = {sum}\napproximate value of pi is: {pi}')
+    print(f'sum = {sum}')
+    print(f'approximate value of pi is: {pi}')
+
+approximate_pi()
